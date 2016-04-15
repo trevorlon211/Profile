@@ -2,17 +2,20 @@
 
 .navbar {
 	border: none;
+	background: rgba(0,0,0,0.7);
 }
 
 .navbar-text {
     margin-top: 20px;
     font-family: helvetica, Arial, sans-serif;
     font-size: 1em;
+    color: #fbf9f9;
 }
 
 .navbar-nav li a {
 	font-weight: bold;
 	letter-spacing: 1.2px;
+	color: #fbf9f9;
 }
 
 
@@ -41,6 +44,170 @@ body {
 }
 
 
+
+/*============== About =============*/
+
+.about {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: -55px 0;
+	background: url(../img/grey_bg.jpg);
+	overflow: visible;
+	-webkit-transform: skewY(-4deg);
+	-moz-transform: skewY(-4deg);
+	-ms-transform: skewY(-4deg);
+	-o-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.about-me {
+	-webkit-transform: skewY(4deg);
+	-moz-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	-o-transform: skewY(4deg);
+	transform: skewY(4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.exp-header {
+	text-align: center;
+}
+
+#about-p {
+	font-family: serif;
+	font-size: 1.1em;
+	line-height: 1.4em;
+}
+
+
+h2 {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 3em;
+}
+
+#pro {
+	text-align: right;
+	padding-right: 0;
+}
+
+#okay {
+	text-align: center;
+}
+
+#newbie {
+	padding-left: 0;
+}
+
+.progress-bar {
+	-webkit-transition: width 3s ease;
+    -o-transition: width 3s ease;
+    transition: width 3s ease;
+}
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: #9c9c9c;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #bababa;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*============== My Projects =============*/
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 200px;
+}
+
+
+
+/*============== Contact =============*/
+
+.contact {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: -55px 0 55px;
+	background: url(../img/grey_bg.jpg);
+	overflow: visible;
+	-webkit-transform: skewY(-4deg);
+	-moz-transform: skewY(-4deg);
+	-ms-transform: skewY(-4deg);
+	-o-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.my-contact {
+	-webkit-transform: skewY(4deg);
+	-moz-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	-o-transform: skewY(4deg);
+	transform: skewY(4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.col-md-3 p {
+	margin-top: 25px;
+}
+
+.map {
+	margin-bottom: -4px;
+}
+
+
+.glyphicon {
+	padding-right: 6px;
+}
+
+.facebook,
+.twitter,
+.linkedin,
+.github {
+	height: 50px;
+	width: auto;
+	padding-right: 5%;
+}
+
+.social {
+	margin-top: 30px;
+}
+
+
+
+
+/*============== Footer =============*/
+
+.footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #ededed;
+	overflow: visible;
+	color: gray;
+}
+
+.copy-right {
+	padding-top: 10px;
+}
+
+.copy-right p {
+	font-size: .5em;
+}
 
 
 
@@ -127,7 +294,7 @@ body {
 /*============== Parallax =============*/
 
 section.module.parallax-1 {
-    background-image: url("../img/pic1.jpg");
+    background-image: url("../img/pic3.jpg");
     height: 720px;
 }
 
@@ -138,3 +305,21 @@ section.module.parallax {
     background-size: cover;
 }
 
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+section.module.parallax-2 {
+  background-image: url("../img/pic2.jpg");
+  height: 400px;
+}
+
+section.module.parallax-3 {
+  background-image: url("../img/pic1.jpg");
+  height: 400px;
+}
