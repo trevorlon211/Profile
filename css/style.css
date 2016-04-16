@@ -50,8 +50,7 @@ body {
 .about {
 	padding-top: 100px;
 	padding-bottom: 100px;
-	margin: -55px 0;
-	background: url(../img/grey_bg.jpg);
+	margin: -55px 0px;
 	overflow: visible;
 	-webkit-transform: skewY(-4deg);
 	-moz-transform: skewY(-4deg);
@@ -127,6 +126,32 @@ h2 {
 
 /*============== My Projects =============*/
 
+.projects {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin: -55px 0;
+	overflow: visible;
+	-webkit-transform: skewY(4deg);
+	-moz-transform: skewY(4deg);
+	-ms-transform: skewY(4deg);
+	-o-transform: skewY(4deg);
+	transform: skewY(4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.my-projects {
+	-webkit-transform: skewY(-4deg);
+	-moz-transform: skewY(-4deg);
+	-ms-transform: skewY(-4deg);
+	-o-transform: skewY(-4deg);
+	transform: skewY(-4deg);
+	-webkit-backface-visibility: hidden;
+}
+
+.caption p {
+	font-size: 1em;
+}
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     max-width: 100%;
@@ -141,7 +166,6 @@ h2 {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	margin: -55px 0 55px;
-	background: url(../img/grey_bg.jpg);
 	overflow: visible;
 	-webkit-transform: skewY(-4deg);
 	-moz-transform: skewY(-4deg);
@@ -162,6 +186,10 @@ h2 {
 
 .col-md-3 p {
 	margin-top: 25px;
+}
+
+.col-md-5 {
+    padding-top: 40px;
 }
 
 .map {

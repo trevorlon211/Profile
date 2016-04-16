@@ -18,7 +18,11 @@
 	color: #fbf9f9;
 }
 
-
+.arrow {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+}
 
 /*============== Body =============*/
 
@@ -30,7 +34,12 @@ body {
 	background: ;
 }
 
-
+h1 {
+    font-family: helvetica, Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 70px 0;
+}
 
 
 #pro {
