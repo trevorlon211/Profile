@@ -7,12 +7,13 @@
 
 .navbar-text {
     margin-top: 20px;
-    font-family: helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #fbf9f9;
 }
 
 .navbar-nav li a {
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	letter-spacing: 1.2px;
 	color: #fbf9f9;
@@ -24,7 +25,8 @@
 
 
 body {
-	font-family: helvetica, Arial, sans-serif;	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 16px;
 	position: relative;
 	padding: 0;
 	background: ;
@@ -81,8 +83,9 @@ body {
 
 
 h2 {
+    font-family: 'Oswald', sans-serif;
 	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
 	font-size: 3em;
 }
@@ -184,13 +187,28 @@ h2 {
 	-webkit-backface-visibility: hidden;
 }
 
-.col-md-3 p {
-	margin-top: 25px;
+
+
+.head{
+	text-align: center;
 }
 
-.col-md-5 {
-    padding-top: 40px;
+.head h2 {
+	text-align: center;
+	font-size: 26px;
+    display: inline-block;
+    letter-spacing: 2px;
 }
+
+span {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 1px;
+    margin: 0 18px 7px 18px;
+    background: #000;
+}
+
 
 .map {
 	margin-bottom: -4px;
@@ -201,21 +219,29 @@ h2 {
 	padding-right: 6px;
 }
 
+.email{
+	height: 40px;
+}
+.instagram,
 .facebook,
 .twitter,
 .linkedin,
 .github {
-	height: 50px;
+	height: 40px;
 	width: auto;
 	padding-right: 5%;
 }
 
 .social {
 	margin-top: 30px;
+	text-align: center;
 }
 
-
-
+h5 {
+	font-size: 18px;
+	padding-left: 5px;
+    display: inline-block;
+}
 
 /*============== Footer =============*/
 
@@ -280,13 +306,18 @@ h2 {
 	.thumbnail {
 		height: 380px;
 	}
-
+    
+    .instagram,
 	.facebook,
 	.twitter,
 	.linkedin,
 	.github {
-		height: 70px;
+		height: 40px;
 		padding-right: 10%;
+	}
+
+	.email{
+		height: 40px;
 	}
 
 }
@@ -334,6 +365,7 @@ section.module.parallax {
 }
 
 section.module.parallax h1 {
+  font-family: 'Oswald', sans-serif;
   color: rgba(255, 255, 255, 0.8);
   font-size: 36px;
   text-align: center;

@@ -7,7 +7,7 @@
 
 .navbar-text {
     margin-top: 20px;
-    font-family: helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     color: #fbf9f9;
 }
@@ -28,14 +28,15 @@
 
 
 body {
-	font-family: helvetica, Arial, sans-serif;	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 	position: relative;
 	padding: 0;
 	background: ;
 }
 
 h1 {
-    font-family: helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 3em;
     text-align: center;
     margin: 70px 0;
