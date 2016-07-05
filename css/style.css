@@ -153,7 +153,7 @@ h2 {
 }
 
 .caption p {
-	font-size: 1em;
+	font-size: .9em;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -395,3 +395,54 @@ section.module.parallax-3 {
   background-image: url("../img/pic1.jpg");
   height: 400px;
 }
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 50px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	section.module.parallax-1,
+	section.module.parallax-2,
+	section.module.parallax-3 {
+		display: none;
+	}
+	
+	section.module.mobile-1,
+	section.module.mobile-2,
+	section.module.mobile-3 {
+		background-size: cover;
+	    background-attachment: fixed;
+	    background-position: center center;
+	    background-attachment: scroll;
+  		display: block;
+	}
+	section.module.mobile-1 {
+		background-image: url("../img/pic3.jpg");
+		height: 700px;
+	}
+	section.module.mobile-2 {
+		background-image: url("../img/pic2.jpg");
+		height: 400px;
+	}
+	section.module.mobile-3 {
+		background-image: url("../img/pic1.jpg");
+		height: 400px;
+	}
+	section.mobile-4 {
+		height: 300px;
+	}
+}
+
